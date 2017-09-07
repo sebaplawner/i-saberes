@@ -2,17 +2,17 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.moodle.moodlemobile"
-        versionCode = "391"
-        version   = "1.15">
-    <name>Moodle Mobile</name>
+        id        = "com.plawner.intercambiando.saberes"
+        versionCode = "1"
+        version   = "1.0">
+    <name>Intercambiando Saberes</name>
 
     <description>
-        Moodle Mobile official app
+        Intercambiando Saberes
     </description>
 
-    <author href="http://moodle.com" email="juan@moodle.com">
-        Juan Leyva
+    <author href="http://plawnerapps.com" email="sebastian.plawner@gmail.com">
+        Sebastian Plawner
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
@@ -58,7 +58,7 @@
     <icon src="img/icon/ios/icon-57@2x.png"         gap:platform="ios"        width="114" height="114" />
     <icon src="img/icon/ios/icon-72@2x.png"         gap:platform="ios"        width="144" height="144" />
 
-    <gap:splash src="img/splash/android/android_ldpi_portrait.png.png" gap:platform="android" gap:density="ldpi"/>
+    <gap:splash src="img/splash/android/android_ldpi_portrait.png" gap:platform="android" gap:density="ldpi"/>
     <gap:splash src="img/splash/android/android_mdpi_portrait.png" gap:platform="android" gap:density="mdpi"/>
     <gap:splash src="img/splash/android/android_hdpi_portrait.png" gap:platform="android" gap:density="hdpi"/>
     <gap:splash src="img/splash/android/android_xhdpi_portrait.png" gap:platform="android" gap:density="xhdpi"/>
